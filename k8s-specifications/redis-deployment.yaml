@@ -15,7 +15,7 @@ spec:
         app: redis
     spec:
       containers:
-      - image: redis:alpine
+      - image: registry.goharbor.io/bupd/redis:alpine
         name: redis
         ports:
         - containerPort: 6379

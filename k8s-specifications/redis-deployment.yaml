@@ -15,7 +15,7 @@ spec:
         app: redis
     spec:
       containers:
-      - image: 10.147.106.55:8080/bupd/redis:alpine
+      - image: 10.147.106.55:8080/library/redis:alpine
         name: redis
         ports:
         - containerPort: 6379

@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: 10.147.106.55:8080/bupd/voting-app/vote:latest
+      - image: 10.147.106.55:8080/library/voting-app/vote:latest
         name: vote
         ports:
         - containerPort: 80

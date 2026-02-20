@@ -15,7 +15,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: registry.goharbor.io/bupd/postgres:15-alpine
+      - image: 10.147.106.55:8080/bupd/postgres:15-alpine
         name: postgres
         env:
         - name: POSTGRES_USER

@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: registry.goharbor.io/bupd/voting-app/worker:latest
+      - image: 10.147.106.55:8080/bupd/voting-app/worker:latest
         name: worker
